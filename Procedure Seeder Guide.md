@@ -1,22 +1,27 @@
-# Procedure Seeder Notes
+# Procedure Seeder Guide
 
 ## Reusable Starter Template
 
-Added the reusable starter template here:
-
-[ProcedureSeederTemplate.php.stub](C:/Users/Najla/Desktop/Git25_26/Esculapio.AI/database/seeders/ProcedureSeederTemplate.php.stub)
+Reusable starter template: ProcedureSeederTemplate.php.stub
 
 It is a `.stub` file, so Laravel will **not run it accidentally**.
 
-New joiners can copy it like this:
+1) Copy it:
 
 ```text
 database/seeders/ProcedureSeederTemplate.php.stub
 -> copy/rename to
-database/seeders/OxygenAdminSeeder.php
+database/seeders/NewProcedureSeeder.php
+```
+**Copy Command**
+
+Run:
+
+```powershell
+Copy-Item database\seeders\ProcedureSeederTemplate.php.stub database\seeders\NewProcedureSeeder.php
 ```
 
-Then they replace:
+2) Replace section infos:
 
 ```text
 NewProcedureSeeder
@@ -30,19 +35,9 @@ error keys
 help keys
 ```
 
-I added comments inside the template explaining what each section is for and when to use `equipment_prep` vs `resuscitation`.
-
-## Copy Command
-
-Run:
-
-```powershell
-Copy-Item database\seeders\ProcedureSeederTemplate.php.stub database\seeders\OxygenAdminSeeder.php
-```
-
 ## Seeder Function Descriptions
 
-In these procedure seeders, each function creates one part of the training procedure data.
+Below are the functions, each of them creates one part of the training procedure data.
 
 ### `seedProcedure()`
 
@@ -50,7 +45,6 @@ Creates the main procedure record in the `procedures` table.
 
 This is the high-level identity of the procedure: name, acronym, description, sector, group, supported modes, status, and config layer.
 
-Examples: `NG Tube Feeding` or `Chest Tube Intubation`.
 
 ### `seedSteps()`
 
