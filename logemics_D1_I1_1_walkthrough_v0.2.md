@@ -1,12 +1,13 @@
 LOGEMICS — MEASUREMENT SYSTEM
 
-D1 Structural Analysis — Indicator I1_1: Isolation of Premises and Conclusion
+**D1 Structural Analysis:** the broader critical-thinking dimension being assessed.
+**— Indicator I1_1: Isolation of Premises and Conclusion:** one specific skill inside that dimension: can the learner identify which statements are premises, which one is the conclusion, and which are irrelevant?
 
-A Concrete Walkthrough — Task Template, Rubric, Exercise Format, End-to-End Example
+**A Concrete Walkthrough — Task Template, Rubric, Exercise Format, End-to-End Example:** the document explains the full pipeline for that indicator: how the question is designed, how answers are scored, and how the final ability estimate is produced.
 
 Version: v0.1-draft  |  Status: draft (pending psychometrician review)  Read by Alaa |  Date: 2026-07-06
 
-Scope note: this document is a per-indicator deliverable. artifacts here are DRAFT measurement content for indicator I1_1 only. Theta estimation unit is PER-INDICATOR 
+_Scope note: this document is a per-indicator deliverable. artifacts here are DRAFT measurement content for indicator I1_1 only. Theta estimation unit is PER-INDICATOR_
 
 # 0. Exercise Format — Decision and Rationale
 
