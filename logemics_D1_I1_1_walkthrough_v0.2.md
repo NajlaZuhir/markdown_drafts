@@ -26,7 +26,7 @@ Consequence for the pipeline: scoring for this indicator is FULLY DETERMINISTIC.
 OPEN — for psychometrician: the deterministic 0–3 mapping (section 1c) assumes the selection-pattern scale is ordinal in the GRM sense. This is a design hypothesis, not an established result. Must be checked against pilot response distributions.
 
 # 1. The Psychometrician Writes the Measurement Material
-
+_A **psychometrician** is a specialist in measuring human abilities, skills, knowledge, or psychological traits using scientifically designed assessments._
 ## 1a. The Claim
 
 > [!info] DEFINITION — Claim
